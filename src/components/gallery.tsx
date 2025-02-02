@@ -1,6 +1,6 @@
 import { JSX } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -14,10 +14,9 @@ export default function Gallery({
 }>): JSX.Element {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
+      modules={[Navigation, Pagination]}
       navigation={true}
       pagination={{ clickable: true }}
-      autoplay={{ delay: 5000 }}
       loop={true}
       className="w-full rounded-lg border border-background shadow-sm"
     >
