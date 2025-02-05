@@ -1,24 +1,8 @@
 "use client";
 
-import { Section, Header, SubHeader, Text, Row, Button, Divider, Gallery } from "@/components";
+import { Section, Header, SubHeader, Text, Row, Button, Divider, Gallery, Card } from "@/components";
 
-export default function Home() {
-
-  // // Theme toggle function
-  // function handleThemeToggle() {
-  //   if (document.documentElement.classList.contains('dark')) {
-  //     document.documentElement.classList.remove('dark');
-  //     document.documentElement.classList.add('light');
-  //   } else {
-  //     document.documentElement.classList.remove('light');
-  //     document.documentElement.classList.add('dark');
-  //   }
-  // }
-
-  // <button onClick={handleThemeToggle}>
-  //   Mode
-  // </button>
-
+export default function HomePage() {
   return (
     <div className="w-[95%] max-w-[92rem] mx-auto bg-middleground h-full min-h-screen border-dashed border-x border-support"
     >
@@ -45,6 +29,7 @@ export default function Home() {
           <Row>
             <Button icon="/svgs/linkedin.svg" color="linkedin" href="https://www.linkedin.com/in/mantvydasdeltuva/">LinkedIn</Button>
             <Button icon="/svgs/github.svg" color="github" href="https://github.com/mantvydasdeltuva">GitHub</Button>
+            <Button icon="/svgs/cv.svg" color="cv" href="./cv">CV</Button>
           </Row>
         </Section>
         <Divider/>
@@ -78,20 +63,7 @@ export default function Home() {
           </Header>
         </Section>
         <Section>
-          <div className="flex flex-row w-full gap-[1rem] p-6 bg-foreground rounded-lg border border-background shadow-sm">
-            <img src="/svgs/cognizant.svg" className="w-[5rem] h-[5rem] rounded-[2.5rem]"/>
-            <div className="flex flex-col w-full">
-              <Header>
-                Software Developer · Internship
-              </Header>
-              <SubHeader>
-                Cognizant
-              </SubHeader>
-              <Text className="py-[0.0rem]">
-                Sep 2023 - Dec 2023
-              </Text>
-            </div>          
-          </div>
+          <Card href="https://sourceryacademy.com/en/academy/juniors/lithuania/developers-java/" src="/svgs/cognizant.svg" position="Software Developer · Internship" company="Cognizant" term="Sep 2023 - Dec 2023"/>
         </Section>
       </main>
     </div>

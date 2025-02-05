@@ -7,3 +7,4 @@ export { default as Button } from "./button";
 export { default as Divider } from "./divider";
 export { default as Image } from "./image";
 export { default as Gallery } from "./gallery";
+export { default as Card } from "./card";

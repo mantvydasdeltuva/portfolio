@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Poppins, JetBrains_Mono } from "next/font/google";
 
 import '@/app/globals.css';
@@ -19,11 +19,6 @@ export const metadata: Metadata = {
   title: "Mantvydas Deltuva",
   description: "Personal website of Mantvydas Deltuva",
 };
-
-// export const viewport: Viewport = {
-//   initialScale: 1.0,
-//   width: 'device-width'
-// }
 
 export default function RootLayout({
   children,
