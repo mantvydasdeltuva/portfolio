@@ -34,6 +34,17 @@ export default function HomePage() {
         </Section>
         <Divider/>
 
+        {/* Experience */}
+        <Section>
+          <Header className="font-jetbrains text-center font-medium">
+            Experience
+          </Header>
+        </Section>
+        <Section>
+          <Card href="https://sourceryacademy.com/en/academy/juniors/lithuania/developers-java/" src="/svgs/cognizant.svg" position="Software Developer · Internship" company="Cognizant" term="Sep 2023 - Dec 2023"/>
+        </Section>
+        <Divider/>
+
         {/* Projects */}
         <Section>
           <Header className="font-jetbrains text-center font-medium">
@@ -53,17 +64,6 @@ export default function HomePage() {
           <Header>Kath</Header>
           <SubHeader>A GUI Tool for Gene Variation Analysis</SubHeader>
           <Text>Kath is a user-friendly application that simplifies the in-depth analysis of gene variation data from LOVD, gnomAD, and ClinVar genetic databases. By consolidating critical genetic insights into an accessible interface, it empowers researchers, clinicians, and geneticists to assess pathogenicity, cross-reference variant data, and advance genomic studies with efficiency and precision.</Text>
-        </Section>
-        <Divider/>
-
-        {/* Experience */}
-        <Section>
-          <Header className="font-jetbrains text-center font-medium">
-            Experience
-          </Header>
-        </Section>
-        <Section>
-          <Card href="https://sourceryacademy.com/en/academy/juniors/lithuania/developers-java/" src="/svgs/cognizant.svg" position="Software Developer · Internship" company="Cognizant" term="Sep 2023 - Dec 2023"/>
         </Section>
       </main>
     </div>
