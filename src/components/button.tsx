@@ -29,7 +29,7 @@ export default function Button({
   const colorVariants: Record<string, string> = {
     linkedin: "text-linkedin hover:bg-linkedin border-linkedin",
     github: "text-github hover:bg-github border-github",
-    cv: "text-primary hover:bg-primary border-primary",
+    cv: "text-cv hover:bg-cv border-cv",
   }
 
   return (

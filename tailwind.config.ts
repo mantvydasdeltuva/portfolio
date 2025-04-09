@@ -15,7 +15,8 @@ export default {
       },
       colors: {
         linkedin: "#2867B2",
-        github: "#000000"
+        github: "#000000",
+        cv: "#473c38",
       }
     },
   },

@@ -11,7 +11,7 @@ export default function HomePage() {
         {/* Avatar */}
         <Section>
           <Row>
-            <img src="/images/mantvydas-deltuva.png" className="w-[2.5rem] sm:w-[5rem] sm:h-[5rem] h-[2.5rem] sm:rounded-[1.25rem] rounded-[0.625rem]"/>
+            <img src="/images/mantvydas-deltuva-avatar.jpg" className="w-[2.5rem] sm:w-[5rem] sm:h-[5rem] h-[2.5rem] sm:rounded-[1.25rem] rounded-[0.625rem]"/>
             <div className="flex flex-col">
               <p className="sm:text-[2.8rem] text-[1.5rem] sm:leading-[3.0rem] leading-[1.5rem] text-header font-bold">
                 Mantvydas Deltuva
@@ -27,9 +27,9 @@ export default function HomePage() {
           <SubHeader>I am a results-driven software engineer with a passion for building intuitive and efficient digital solutions. Always eager to learn and refine my skills to create better and more impactful software with every project.</SubHeader>
           <Text>Ready to contribute and make a difference.</Text>
           <Row>
+            <Button icon="/svgs/cv.svg" color="cv" href="./cv">CV</Button>
             <Button icon="/svgs/linkedin.svg" color="linkedin" href="https://www.linkedin.com/in/mantvydasdeltuva/">LinkedIn</Button>
             <Button icon="/svgs/github.svg" color="github" href="https://github.com/mantvydasdeltuva">GitHub</Button>
-            <Button icon="/svgs/cv.svg" color="cv" href="./cv">CV</Button>
           </Row>
         </Section>
         <Divider/>
