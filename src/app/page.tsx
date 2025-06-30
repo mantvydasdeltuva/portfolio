@@ -27,7 +27,7 @@ export default function HomePage() {
           <SubHeader>I am a results-driven software engineer with a passion for building intuitive and efficient digital solutions. Always eager to learn and refine my skills to create better and more impactful software with every project.</SubHeader>
           <Text>Ready to contribute and make a difference.</Text>
           <Row>
-            <Button icon="/svgs/cv.svg" color="cv" href="./cv">CV</Button>
+{/*             <Button icon="/svgs/cv.svg" color="cv" href="./cv">CV</Button> */}
             <Button icon="/svgs/linkedin.svg" color="linkedin" href="https://www.linkedin.com/in/mantvydasdeltuva/">LinkedIn</Button>
             <Button icon="/svgs/github.svg" color="github" href="https://github.com/mantvydasdeltuva">GitHub</Button>
           </Row>
